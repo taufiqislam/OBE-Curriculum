@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #deeaee;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.input-label {
+  font-weight: bold;
+}
+
+
+.Heading1 {
+  border-bottom-style: solid;
+  border-bottom-color: cornflowerblue;
+  text-align: left;
+  padding-top: 1.8rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+
+
+.Heading2 {
+  border-bottom-style: solid;
+  border-bottom-color: cornflowerblue;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.Heading3 {
+  text-align: right;
+  border-bottom-style: solid;
+  border-bottom-color: cornflowerblue;
+  margin-bottom: 3rem;
+}
+
+
+.sidenavbar {
+  background-color: skyblue;
+  height: 725px;
+  overflow-y: scroll;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+thead {
+  background-color: cornflowerblue;
+  color:white;
+}
+
+tbody {
+  background-color: white;
+}
+
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  padding-left: 0;
+  margin-left: -10px;
+}
+.nav-link span{
+  color: rgba(0,0,0,0.6);
+  width: 40px;
+  height: 40px;
+
+}
+
+.nav-item:hover span {
+  color: #8758ff;
+}
+
+span {
+  font-size: 0.9rem;
+}
+
+.Page {
+  background-color: #deeaee;
+  overflow-x: hidden;
+}
+
+
+.Wrapper {
+  background: #deeaee;
+  padding: 2rem;
+  border-radius: 5px;
+  /*margin-right: 0;*/
+  /*margin-left: 22px;*/
+}
+
+.ObeForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  outline: none;
+  border: 1px solid;
+  padding: 0.5rem 1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.form-input::placeholder {
+  color: #4c49494d;
+}
+
+
+.form-btn {
+  background: cornflowerblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Mission,.Vision,.Peo,.Plo,.Ilo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5AAAD7;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+.customBtn{
+  width: 80px !important;
+  margin-left: 4px;
+  background-color: #5AAAD7!important;
+}
+.customBtn:hover{
+  background-color: #deeaee!important;
+  color: #1A1A40!important;
+  transition: 0.5s!important;
+  border: 1px solid white !important;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color:#CDF5FD;
+  color: #fff;
+  overflow-y: auto;
+  padding-left: 10px;
+  margin-left: -20px;
+}
+
+.scrollable-content {
+  padding: 20px;
+}
+.Drop {
+  height: 15rem;
+}
+.Course-btn {
+  height: 5rem;
+  text-align: center;
+}

@@ -1,0 +1,63 @@
+.MissionWrapper,.VisionWrapper,.PeoWrapper,.PloWrapper,.IloWrapper,.CourseInfoWrapper {
+    background: #1A1A40;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+
+  .MissionForm,.VisionForm,.PeoForm,.PloForm,.IloForm,.CourseInfoForm {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .form-input {
+    outline: none;
+    border: 1px solid;
+    padding: 0.5rem 1rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    display: block;
+  }
+  
+  .form-input::placeholder {
+    color: #4c49494d;
+  }
+  
+  
+  .form-btn {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+  }
+  
+  .Mission,.Vision,.Peo,.Plo,.Ilo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8758ff;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .fa-trash {
+    margin-left: 0.75rem;
+  }
+  
+  .incompleted {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+  }
